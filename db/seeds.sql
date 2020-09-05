@@ -1,6 +1,6 @@
 CREATE TABLE products (
     id SERIAL PRIMARY KEY, 
-    name VARCHAR(100),
+    name VARCHAR(50),
     price INT, 
     img TEXT
 );
