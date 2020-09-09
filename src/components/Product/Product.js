@@ -6,7 +6,7 @@ function Product(props) {
         <div className="inventory-container">
             <p className="inventory-text">{name}</p>
             <p className="inventory-text">{`$${price}`}</p>
-            <img src={img} alt={`This is a ${name}`} />
+            <img className="inventory-img" src={img} alt={`This is a ${name}`} />
             <button onClick={() => deleteProduct(id)}>Delete</button>
             <button onClick={() => updateProduct(props.item)}>Update</button>
         </div>

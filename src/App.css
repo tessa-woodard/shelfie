@@ -42,7 +42,7 @@
   flex-direction: column;
   justify-content: left;
   align-items: center;
-  width: 35vw;
+  width: 40vw;
   height:30vh;
   padding: 10px;
   margin: 90px;
@@ -50,8 +50,8 @@
 }
 
 .inventory-text {
+  margin-left: 60px;
   position: relative;
-  margin-right: 60px;
   font-size: 20px;
   font-weight: bolder;
 }
@@ -65,7 +65,7 @@
 .inventory-container button {
   padding: 10px;
   margin: 10px;
-  position: relative;
+  position: flex;
   top:5%;
   background-color: #3AD886;
   border: none;
@@ -75,6 +75,14 @@
 
 .inventory-container button:hover {
   background-color: #ED6B5A;
+}
+
+.inventory-img {
+  display: relative;
+  padding: 5px;
+  margin: 10px;
+  height: 190px;
+  width: 50px;
 }
 
 .nav-container {
@@ -91,6 +99,7 @@
 }
 
 .nav-container button {
+  display: flex;
   border-radius: 4px;
   border: none;
   padding: 10px;
